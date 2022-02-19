@@ -1,18 +1,15 @@
 import java.util.HashMap;
-import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {
         HashMap<String,String> map = new HashMap<>();
-        map.put("s2","ss");
-        map.put("s2","xx");
-        map.remove("s2");
-//        map.put("vg3","tt");
-//        map.put(null,"ss");
+        map.replace("a", "1");
+        System.out.println(map.get("a"));
 
-        for (String key : map.keySet()){
-            System.out.println("key : " + key);
-            System.out.println("value : " + map.get(key));
-        }
+        map.put("a", "1");
+        System.out.println(map.get("a"));
+
+        map.replace("a", "2");
+        System.out.println(map.get("a"));
     }
 }

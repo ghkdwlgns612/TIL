@@ -216,4 +216,4 @@ final Node<K,V> removeNode(int hash, Object key, Object value,
 이렇게 HashMap이 어떻게 동작하는지 알아봤다. 중요한 내용을 정리해보자
 * PUT으로 데이터 넣을 시 Node로 데이터가 들어가고 hashcode와 equals가 다를 경우 LinkedList의 Next에 이어붙힌다.
 * REMOVE로 데이터를 지울 시 해시 값을 찾아 Node들을 돌며 hashcode와 equals가 같은 경우를 찾아내 제거한다.
-* HashMap은 LinkedList의 집합들이다.
+* HashMap은 LinkedList의 집합들이다!

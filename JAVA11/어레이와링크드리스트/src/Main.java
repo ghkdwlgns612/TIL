@@ -34,5 +34,6 @@ public class Main {
         long endTime4 = System.nanoTime();
         System.out.println("LinkedList의 제거 : " + (endTime4-startTime4));
 
+        System.out.println(arr2.remove(null));
     }
 }

@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="커밋">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA11/HttpClientRestTemplate/Module1/src/main/java/org/example/OneController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA11/HttpClientRestTemplate/Module1/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA11/HttpClientRestTemplate/Module2/src/main/java/org/example/TwoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA11/HttpClientRestTemplate/Module2/src/main/resources/application.yml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +65,7 @@
       <workItem from="1645402569063" duration="927000" />
       <workItem from="1645404634709" duration="677000" />
       <workItem from="1645661816619" duration="1438000" />
+      <workItem from="1645845987800" duration="474000" />
     </task>
     <task id="LOCAL-00001" summary="디렉토리 구조 설정">
       <created>1645186524326</created>

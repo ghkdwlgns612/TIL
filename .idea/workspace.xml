@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="ReadMe수정" />
+    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="ReadMe수정">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,6 +70,7 @@
       <workItem from="1645661816619" duration="1438000" />
       <workItem from="1645845987800" duration="474000" />
       <workItem from="1646009042605" duration="1425000" />
+      <workItem from="1646049318358" duration="112000" />
     </task>
     <task id="LOCAL-00001" summary="디렉토리 구조 설정">
       <created>1645186524326</created>

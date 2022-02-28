@@ -4,9 +4,11 @@
 
 <br/>
 
-* [AWS](AWS)
-* [JAVA11](JAVA11)
-<br/>
+### * [AWS](AWS)
+
+
+### * [JAVA11](JAVA11)
+
   [제네릭](JAVA11/Generic/제네릭.md)
 <br/>
   [HashMap원리](JAVA11/HashMap/HashMap.md)
@@ -21,12 +23,16 @@
 <br/> 
 
 
-* [JPA](JPA)
+### * [JPA](JPA)
+
+  [순환참조](JPA/Recursive/순환참조.md)
 
 
-* [KAFKA](KAFKA)
-* [GITHUB](GITHUB)
+### * [KAFKA](KAFKA)
 
-* [SPRING](SPRING)
-    
-    [빈스코프](SPRING/BeanScope)
+
+### * [GITHUB](GITHUB)
+
+### * [SPRING](SPRING)
+
+  [빈스코프](SPRING/BeanScope)

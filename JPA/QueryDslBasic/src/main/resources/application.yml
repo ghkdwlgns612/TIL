@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    username: sa
+    password: a
+    url: jdbc:h2:tcp://localhost/~/test
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true

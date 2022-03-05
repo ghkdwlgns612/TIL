@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="ReadMe수정" />
+    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="ReadMe수정">
+      <change afterPath="$PROJECT_DIR$/JPA/QueryDslBasic/src/main/java/com/example/querydslbasic/BlogPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JPA/QueryDslBasic/src/main/java/com/example/querydslbasic/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JPA/QueryDslBasic/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +77,11 @@
       <workItem from="1646049318358" duration="198000" />
       <workItem from="1646117762638" duration="88000" />
       <workItem from="1646118222247" duration="862000" />
+      <workItem from="1646183254542" duration="1703000" />
+      <workItem from="1646190216698" duration="1853000" />
+      <workItem from="1646285642647" duration="2635000" />
+      <workItem from="1646388954606" duration="820000" />
+      <workItem from="1646441244228" duration="88000" />
     </task>
     <task id="LOCAL-00001" summary="디렉토리 구조 설정">
       <created>1645186524326</created>

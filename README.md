@@ -26,6 +26,8 @@
 ### * [JPA](JPA)
 
   [순환참조](JPA/Recursive/순환참조.md)
+<br/>
+  [QueryDsl기본](JPA/QueryDslBasic/QueryDslBasic.md)
 
 
 ### * [KAFKA](KAFKA)
@@ -36,9 +38,6 @@
 ### * [SPRING](SPRING)
 
   [빈스코프](SPRING/BeanScope)
-<br/>
-  [트랜잭션 전파레벨](SPRING/TransactionProgation/Progation.md)
   <br/>
-  [Saga패턴 분산 트랜잭션]()
-  
+  [트랜잭션 전파레벨](SPRING/TransactionProgation/Progation.md) 
 

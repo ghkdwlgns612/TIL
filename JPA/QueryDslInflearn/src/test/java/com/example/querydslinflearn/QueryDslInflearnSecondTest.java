@@ -2,6 +2,8 @@ package com.example.querydslinflearn;
 
 import com.example.querydslinflearn.dto.MemberDto;
 import com.example.querydslinflearn.dto.QMemberDto;
+import com.example.querydslinflearn.entity.Member;
+import com.example.querydslinflearn.entity.Team;
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.core.Tuple;
 import com.querydsl.core.types.Predicate;
@@ -18,7 +20,7 @@ import javax.transaction.Transactional;
 
 import java.util.List;
 
-import static com.example.querydslinflearn.QMember.member;
+import static com.example.querydslinflearn.entity.QMember.member;
 
 @SpringBootTest
 @Transactional

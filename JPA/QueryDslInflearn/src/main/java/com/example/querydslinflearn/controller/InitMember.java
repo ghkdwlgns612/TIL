@@ -1,7 +1,7 @@
 package com.example.querydslinflearn.controller;
 
-import com.example.querydslinflearn.Member;
-import com.example.querydslinflearn.Team;
+import com.example.querydslinflearn.entity.Member;
+import com.example.querydslinflearn.entity.Team;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;

@@ -1,10 +1,10 @@
-package com.example.querydslinflearn;
+package com.example.querydslinflearn.repository;
 
 import com.example.querydslinflearn.dto.MemberSearchCondition;
 import com.example.querydslinflearn.dto.MemberTeamDto;
 import com.example.querydslinflearn.dto.QMemberTeamDto;
+import com.example.querydslinflearn.entity.Member;
 import com.querydsl.core.BooleanBuilder;
-import com.querydsl.core.types.Predicate;
 import com.querydsl.core.types.dsl.BooleanExpression;
 import com.querydsl.jpa.impl.JPAQueryFactory;
 import org.springframework.stereotype.Repository;
@@ -15,8 +15,8 @@ import java.util.List;
 import java.util.Optional;
 
 import static ch.qos.logback.core.util.OptionHelper.isEmpty;
-import static com.example.querydslinflearn.QMember.member;
-import static com.example.querydslinflearn.QTeam.*;
+import static com.example.querydslinflearn.entity.QMember.member;
+import static com.example.querydslinflearn.entity.QTeam.*;
 
 @Repository
 public class MemberJpaRepository {

@@ -1,5 +1,6 @@
-package com.example.querydslinflearn;
+package com.example.querydslinflearn.entity;
 
+import com.example.querydslinflearn.entity.Member;
 import lombok.*;
 import javax.persistence.*;
 import java.util.ArrayList;

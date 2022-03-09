@@ -1,4 +1,4 @@
-package com.example.querydslinflearn;
+package com.example.querydslinflearn.entity;
 
 import lombok.*;
 import javax.persistence.*;

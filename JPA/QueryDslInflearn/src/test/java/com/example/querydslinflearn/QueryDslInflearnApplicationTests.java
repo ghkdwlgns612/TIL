@@ -1,5 +1,6 @@
 package com.example.querydslinflearn;
 
+import com.example.querydslinflearn.entity.*;
 import com.querydsl.core.QueryResults;
 import com.querydsl.core.Tuple;
 import com.querydsl.core.types.dsl.CaseBuilder;

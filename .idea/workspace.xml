@@ -4,12 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="ReadMe수정 및 Mybatis기본구현">
-      <change afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/Team.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="QueryDsl마지막편">
+      <change afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/repository/MemberRepositoryCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/repository/MemberRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/support/QueryDsl4RepositorySupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/test/java/com/example/querydslinflearn/QueryDslSpringDataJpaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/entity/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/MemberJpaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/repository/MemberJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/entity/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/entity/Users.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/controller/InitMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/controller/InitMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/controller/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/main/java/com/example/querydslinflearn/controller/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/test/java/com/example/querydslinflearn/QueryDslInflearnApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/test/java/com/example/querydslinflearn/QueryDslInflearnApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/test/java/com/example/querydslinflearn/QueryDslInflearnSecondTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/test/java/com/example/querydslinflearn/QueryDslInflearnSecondTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/test/java/com/example/querydslinflearn/QueryDslJpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JPA/QueryDslInflearn/src/test/java/com/example/querydslinflearn/QueryDslJpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +52,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -86,6 +98,7 @@
       <workItem from="1646531147312" duration="151000" />
       <workItem from="1646543223672" duration="692000" />
       <workItem from="1646617210321" duration="1424000" />
+      <workItem from="1646808626222" duration="122000" />
     </task>
     <task id="LOCAL-00001" summary="디렉토리 구조 설정">
       <created>1645186524326</created>
@@ -173,7 +186,8 @@
     <MESSAGE value="커밋" />
     <MESSAGE value="ReadMe수정" />
     <MESSAGE value="ReadMe수정 및 Mybatis기본구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="ReadMe수정 및 Mybatis기본구현" />
+    <MESSAGE value="QueryDsl마지막편" />
+    <option name="LAST_COMMIT_MESSAGE" value="QueryDsl마지막편" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

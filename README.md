@@ -7,7 +7,7 @@
 ### * [AWS](AWS)
 
 
-### * [JAVA11](JAVA11)
+### * [JAVA](JAVA11)
 
   [제네릭](JAVA11/Generic/제네릭.md)
 <br/>
@@ -28,7 +28,8 @@
   [순환참조](JPA/Recursive/순환참조.md)
 <br/>
   [QueryDsl기본](JPA/QueryDslBasic/QueryDslBasic.md)
-
+<br/>
+  [QueryDsl인프런](JPA/QueryDslInflearn)
 
 ### * [KAFKA](KAFKA)
 

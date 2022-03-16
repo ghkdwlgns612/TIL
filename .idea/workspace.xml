@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="QueryDsl마지막편">
+    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="LogTracer작성.">
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +88,7 @@
       <workItem from="1646808751334" duration="36000" />
       <workItem from="1646874522528" duration="2095000" />
       <workItem from="1646963547261" duration="2000" />
-      <workItem from="1647309594721" duration="46000" />
+      <workItem from="1647309594721" duration="2927000" />
     </task>
     <task id="LOCAL-00001" summary="디렉토리 구조 설정">
       <created>1645186524326</created>
@@ -160,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646808769511</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="LogTracer작성.">
+      <created>1647309666465</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1647309666465</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,7 +191,8 @@
     <MESSAGE value="ReadMe수정" />
     <MESSAGE value="ReadMe수정 및 Mybatis기본구현" />
     <MESSAGE value="QueryDsl마지막편" />
-    <option name="LAST_COMMIT_MESSAGE" value="QueryDsl마지막편" />
+    <MESSAGE value="LogTracer작성." />
+    <option name="LAST_COMMIT_MESSAGE" value="LogTracer작성." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

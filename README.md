@@ -43,3 +43,5 @@
   [트랜잭션 전파레벨](SPRING/TransactionProgation/Progation.md) 
   <br/>
   [로그 Tracer](SPRING/LogTrace)
+  <br/>
+  [ThreadLocal사용](SPRING/ThreadLocal/ThreadLocal.md)

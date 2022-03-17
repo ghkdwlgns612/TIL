@@ -4,27 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="ThreadLocal ReadMe업데이트">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/src/main/java/com/example/templatepattern/TemplatePatternApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/src/test/java/com/example/templatepattern/TemplatePatternApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/TIL.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="TemplateMethodPattern ReadMe업데이트">
+      <change afterPath="$PROJECT_DIR$/DesignPattern/StrategyPattern/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/StrategyPattern/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/StrategyPattern/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/StrategyPattern/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/StrategyPattern/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/StrategyPattern/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/StrategyPattern/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/StrategyPattern/src/main/java/com/example/strategypattern/ContextV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/StrategyPattern/src/main/java/com/example/strategypattern/StrategypatternApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/StrategyPattern/src/main/java/com/example/strategypattern/strategy1/ContextV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/StrategyPattern/src/main/java/com/example/strategypattern/strategy1/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/StrategyPattern/src/main/java/com/example/strategypattern/strategy1/StrategyLogic1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/StrategyPattern/src/main/java/com/example/strategypattern/strategy1/StrategyLogic2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/StrategyPattern/src/main/java/com/example/strategypattern/strategy2/ContextV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/StrategyPattern/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/StrategyPattern/src/test/java/com/example/strategypattern/StrategypatternApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +109,8 @@
       <workItem from="1646963547261" duration="2000" />
       <workItem from="1647309594721" duration="2927000" />
       <workItem from="1647474251141" duration="1564000" />
+      <workItem from="1647487168822" duration="36000" />
+      <workItem from="1647487208921" duration="1937000" />
     </task>
     <task id="LOCAL-00001" summary="디렉토리 구조 설정">
       <created>1645186524326</created>
@@ -197,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647479770231</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="TemplateMethodPattern ReadMe업데이트">
+      <created>1647487279687</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1647487279687</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +230,8 @@
     <MESSAGE value="QueryDsl마지막편" />
     <MESSAGE value="LogTracer작성." />
     <MESSAGE value="ThreadLocal ReadMe업데이트" />
-    <option name="LAST_COMMIT_MESSAGE" value="ThreadLocal ReadMe업데이트" />
+    <MESSAGE value="TemplateMethodPattern ReadMe업데이트" />
+    <option name="LAST_COMMIT_MESSAGE" value="TemplateMethodPattern ReadMe업데이트" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

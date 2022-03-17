@@ -4,25 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="LogTracer작성.">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/ThreadLocal.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/img/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/img/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/java/com/example/threadlocal/LogTraceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/java/com/example/threadlocal/ThreadlocalApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/java/com/example/threadlocal/TraceId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/java/com/example/threadlocal/TraceStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/java/com/example/threadlocal/field/FieldService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/java/com/example/threadlocal/field/ThreadLocalService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/java/com/example/threadlocal/log/FieldLogTrace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/java/com/example/threadlocal/log/LogTrace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/test/java/com/example/threadlocal/ThreadlocalApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="ThreadLocal ReadMe업데이트">
+      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/src/main/java/com/example/templatepattern/TemplatePatternApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/TemplatePattern/src/test/java/com/example/templatepattern/TemplatePatternApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TIL.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +49,14 @@
     <option name="defaultAccountId" value="6b136e7c-facf-4188-b644-01901fdb2695" />
   </component>
   <component name="ProjectId" id="25HZ4JhzGEdFsk0DzIuWDf5UThd" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -105,7 +111,7 @@
       <workItem from="1646874522528" duration="2095000" />
       <workItem from="1646963547261" duration="2000" />
       <workItem from="1647309594721" duration="2927000" />
-      <workItem from="1647474251141" duration="752000" />
+      <workItem from="1647474251141" duration="1564000" />
     </task>
     <task id="LOCAL-00001" summary="디렉토리 구조 설정">
       <created>1645186524326</created>
@@ -184,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647309666465</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ThreadLocal ReadMe업데이트">
+      <created>1647479770231</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1647479770231</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,13 +216,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="디렉토리 구조 설정" />
     <MESSAGE value="커밋" />
     <MESSAGE value="ReadMe수정" />
     <MESSAGE value="ReadMe수정 및 Mybatis기본구현" />
     <MESSAGE value="QueryDsl마지막편" />
     <MESSAGE value="LogTracer작성." />
-    <option name="LAST_COMMIT_MESSAGE" value="LogTracer작성." />
+    <MESSAGE value="ThreadLocal ReadMe업데이트" />
+    <option name="LAST_COMMIT_MESSAGE" value="ThreadLocal ReadMe업데이트" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

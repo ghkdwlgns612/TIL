@@ -6,6 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="LogTracer작성.">
       <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/ThreadLocal.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/img/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/java/com/example/threadlocal/LogTraceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/java/com/example/threadlocal/ThreadlocalApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/java/com/example/threadlocal/TraceId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/java/com/example/threadlocal/TraceStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/java/com/example/threadlocal/field/FieldService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/java/com/example/threadlocal/field/ThreadLocalService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/java/com/example/threadlocal/log/FieldLogTrace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/main/java/com/example/threadlocal/log/LogTrace.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SPRING/ThreadLocal/src/test/java/com/example/threadlocal/ThreadlocalApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +105,7 @@
       <workItem from="1646874522528" duration="2095000" />
       <workItem from="1646963547261" duration="2000" />
       <workItem from="1647309594721" duration="2927000" />
+      <workItem from="1647474251141" duration="752000" />
     </task>
     <task id="LOCAL-00001" summary="디렉토리 구조 설정">
       <created>1645186524326</created>

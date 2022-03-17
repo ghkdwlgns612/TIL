@@ -10,6 +10,7 @@
 ### * [DesignPattern](DesignPattern)
   
   [템플릿 메소드 패턴](DesignPattern/TemplatePattern/템플릿메서드패턴.md)  
+  [전략 패턴](DesignPattern/StrategyPattern/전략패턴.md)
 
 ### * [JAVA](JAVA11)
 

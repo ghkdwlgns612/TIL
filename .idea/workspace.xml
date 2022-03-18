@@ -5,22 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="StrategyPattern ReadMe업데이트">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/img/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/img/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/src/main/java/com/example/proxypattern/ProxyPatternApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/src/main/java/com/example/proxypattern/proxy1/ProxyPatternClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/src/main/java/com/example/proxypattern/proxy1/RealSubject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/src/main/java/com/example/proxypattern/proxy1/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/src/main/java/com/example/proxypattern/proxy2/CacheProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/src/test/java/com/example/proxypattern/ProxyPatternApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/img/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/src/main/java/com/example/proxypattern/decorator1/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/src/main/java/com/example/proxypattern/decorator1/DecoratorPatternClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/src/main/java/com/example/proxypattern/decorator1/RealComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/src/main/java/com/example/proxypattern/decorator2/MessageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/src/main/java/com/example/proxypattern/decorator3/TimeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DesignPattern/ProxyPattern/src/test/java/com/example/proxypattern/DecoratorPatternApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,7 +102,7 @@
       <workItem from="1647474251141" duration="1564000" />
       <workItem from="1647487168822" duration="36000" />
       <workItem from="1647487208921" duration="2555000" />
-      <workItem from="1647563567535" duration="2189000" />
+      <workItem from="1647563567535" duration="3110000" />
     </task>
     <task id="LOCAL-00001" summary="디렉토리 구조 설정">
       <created>1645186524326</created>

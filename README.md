@@ -11,6 +11,7 @@
   
   [템플릿 메소드 패턴](DesignPattern/TemplatePattern/템플릿메서드패턴.md)  
   [전략 패턴](DesignPattern/StrategyPattern/전략패턴.md)
+  <br/>[프록시 패턴과 데코레이터 패턴](DesignPattern/ProxyPattern/프록시패턴.md)
 
 ### * [JAVA](JAVA11)
 

@@ -1,4 +1,3 @@
-프록시패턴.md
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar

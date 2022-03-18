@@ -1,4 +1,3 @@
-템플릿메서드패턴.md
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar

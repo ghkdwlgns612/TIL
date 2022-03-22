@@ -4,38 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="ProxyPattern ReadMe업데이트">
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/img/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/img/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/img/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/main/java/com/example/applyproxy/ApplyProxyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/main/java/com/example/applyproxy/InterfaceProxyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/main/java/com/example/applyproxy/implement/OrderControllerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/main/java/com/example/applyproxy/implement/OrderRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/main/java/com/example/applyproxy/implement/OrderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/main/java/com/example/applyproxy/interfaces/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/main/java/com/example/applyproxy/interfaces/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/main/java/com/example/applyproxy/interfaces/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/main/java/com/example/applyproxy/proxy/OrderControllerInterfaceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/main/java/com/example/applyproxy/proxy/OrderRepositoryInterfaceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/main/java/com/example/applyproxy/proxy/OrderServiceInterfaceProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/main/java/com/example/applyproxy/utils/LogTrace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/main/java/com/example/applyproxy/utils/ThreadLocalLogTrace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/main/java/com/example/applyproxy/utils/TraceId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/main/java/com/example/applyproxy/utils/TraceStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/src/test/java/com/example/applyproxy/ApplyProxyApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignPattern/applyProxy/프록시패턴적용.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/회고/2022.03.18(디자인패턴을 공부하며).md" afterDir="false" />
+    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="회고 업데이트">
+      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/src/main/java/com/example/dynamicproxy/DynamicProxyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/src/main/java/com/example/dynamicproxy/handler/TimeInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/src/main/java/com/example/dynamicproxy/implement/AInterfaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/src/main/java/com/example/dynamicproxy/implement/BInterfaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/src/main/java/com/example/dynamicproxy/interfaces/AInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/src/main/java/com/example/dynamicproxy/interfaces/BInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/src/test/java/com/example/dynamicproxy/DynamicProxyApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,6 +114,8 @@
       <workItem from="1647570891638" duration="160000" />
       <workItem from="1647584126861" duration="1321000" />
       <workItem from="1647596080886" duration="952000" />
+      <workItem from="1647649923867" duration="671000" />
+      <workItem from="1647835283862" duration="676000" />
     </task>
     <task id="LOCAL-00001" summary="디렉토리 구조 설정">
       <created>1645186524326</created>
@@ -235,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647570959439</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="회고 업데이트">
+      <created>1647649993866</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1647649993866</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +259,8 @@
     <MESSAGE value="TemplateMethodPattern ReadMe업데이트" />
     <MESSAGE value="StrategyPattern ReadMe업데이트" />
     <MESSAGE value="ProxyPattern ReadMe업데이트" />
-    <option name="LAST_COMMIT_MESSAGE" value="ProxyPattern ReadMe업데이트" />
+    <MESSAGE value="회고 업데이트" />
+    <option name="LAST_COMMIT_MESSAGE" value="회고 업데이트" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

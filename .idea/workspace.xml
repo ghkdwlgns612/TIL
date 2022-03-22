@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="회고 업데이트">
-      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/src/main/java/com/example/dynamicproxy/DynamicProxyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/src/main/java/com/example/dynamicproxy/handler/TimeInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/src/main/java/com/example/dynamicproxy/implement/AInterfaceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/src/main/java/com/example/dynamicproxy/implement/BInterfaceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/src/main/java/com/example/dynamicproxy/interfaces/AInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/src/main/java/com/example/dynamicproxy/interfaces/BInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JAVA11/DynamicProxy/src/test/java/com/example/dynamicproxy/DynamicProxyApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,6 +101,7 @@
       <workItem from="1647596080886" duration="952000" />
       <workItem from="1647649923867" duration="671000" />
       <workItem from="1647835283862" duration="676000" />
+      <workItem from="1647914477133" duration="42000" />
     </task>
     <task id="LOCAL-00001" summary="디렉토리 구조 설정">
       <created>1645186524326</created>

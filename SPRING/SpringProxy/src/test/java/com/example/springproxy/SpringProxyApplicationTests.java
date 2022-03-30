@@ -108,6 +108,15 @@ class SpringProxyApplicationTests {
 
     @Test
     void multiAdvisor1NTest() {
+        DefaultPointcutAdvisor advisor1 = new DefaultPointcutAdvisor(Pointcut.TRUE, new Advice1());
+        DefaultPointcutAdvisor advisor2 = new DefaultPointcutAdvisor(Pointcut.TRUE, new Advice2());
 
+        ServiceInterface target = new ServiceInterfaceImpl();
+        ProxyFactory proxyFactory1 = new ProxyFactory(target);
+        proxyFactory1.addAdvisor(advisor2);
+        proxyFactory1.addAdvisor(advisor1);
+
+        ServiceInterface proxy = (ServiceInterface) proxyFactory1.getProxy();
+        proxy.save();
     }
 }

@@ -53,6 +53,8 @@
   [로그 Tracer](SPRING/LogTrace)
   <br/>
   [ThreadLocal사용](SPRING/ThreadLocal/ThreadLocal.md)
+  <br/>
+  [SpringProxy](SPRING/SpringProxy/스프링프록시.md)
 
 ### * [회고록](회고)
 

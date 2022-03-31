@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="동적 프록시 업데이트">
-      <change afterPath="$PROJECT_DIR$/SPRING/SpringProxy/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/SpringProxy/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/SpringProxy/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/SpringProxy/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/SpringProxy/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/SpringProxy/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/SpringProxy/img/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/SpringProxy/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/SpringProxy/src/main/java/com/example/springproxy/SpringProxyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/SpringProxy/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SPRING/SpringProxy/src/test/java/com/example/springproxy/SpringProxyApplicationTests.java" afterDir="false" />
+    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="스프링 프록시 업데이트">
+      <change afterPath="$PROJECT_DIR$/DB/NosqlTutorial/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/NosqlTutorial/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/NosqlTutorial/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/NosqlTutorial/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/NosqlTutorial/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/NosqlTutorial/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/NosqlTutorial/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/NosqlTutorial/src/main/java/com/example/nosqltutorial/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/NosqlTutorial/src/main/java/com/example/nosqltutorial/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/NosqlTutorial/src/main/java/com/example/nosqltutorial/NosqlTutorialApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/NosqlTutorial/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DB/NosqlTutorial/src/test/java/com/example/nosqltutorial/NosqlTutorialApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -115,6 +116,8 @@
       <workItem from="1647914477133" duration="453000" />
       <workItem from="1647931051580" duration="662000" />
       <workItem from="1648181396673" duration="35000" />
+      <workItem from="1648617236148" duration="647000" />
+      <workItem from="1648699611846" duration="1481000" />
     </task>
     <task id="LOCAL-00001" summary="디렉토리 구조 설정">
       <created>1645186524326</created>
@@ -235,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647914532226</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="스프링 프록시 업데이트">
+      <created>1648617281899</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1648617281899</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +277,8 @@
     <MESSAGE value="ProxyPattern ReadMe업데이트" />
     <MESSAGE value="회고 업데이트" />
     <MESSAGE value="동적 프록시 업데이트" />
-    <option name="LAST_COMMIT_MESSAGE" value="동적 프록시 업데이트" />
+    <MESSAGE value="스프링 프록시 업데이트" />
+    <option name="LAST_COMMIT_MESSAGE" value="스프링 프록시 업데이트" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

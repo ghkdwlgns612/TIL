@@ -25,7 +25,6 @@ class NosqlTutorialApplicationTests {
 	@Test
 	void findAllTest() {
 		List<Member> members = memberRepository.findAll();
-
 		Assertions.assertThat(members.size()).isEqualTo(2);
 	}
 

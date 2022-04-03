@@ -1,4 +1,4 @@
-HELP.md
+Nosql튜토리얼.md
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar

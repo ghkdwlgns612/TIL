@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="스프링 프록시 업데이트">
+    <list default="true" id="5ae46488-1f91-4766-a439-554d20f9d583" name="Changes" comment="MongoDB 업데이트">
+      <change afterPath="$PROJECT_DIR$/MSA/Concept/MSA개념.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MSA/Concept/img.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MSA/Concept" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -53,6 +56,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MSA/Concept" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -107,6 +115,8 @@
       <workItem from="1648617236148" duration="647000" />
       <workItem from="1648699611846" duration="1646000" />
       <workItem from="1648727773190" duration="1541000" />
+      <workItem from="1648971087421" duration="117000" />
+      <workItem from="1649029981550" duration="3159000" />
     </task>
     <task id="LOCAL-00001" summary="디렉토리 구조 설정">
       <created>1645186524326</created>
@@ -234,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648617281899</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="MongoDB 업데이트">
+      <created>1648971176921</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1648971176921</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +284,8 @@
     <MESSAGE value="회고 업데이트" />
     <MESSAGE value="동적 프록시 업데이트" />
     <MESSAGE value="스프링 프록시 업데이트" />
-    <option name="LAST_COMMIT_MESSAGE" value="스프링 프록시 업데이트" />
+    <MESSAGE value="MongoDB 업데이트" />
+    <option name="LAST_COMMIT_MESSAGE" value="MongoDB 업데이트" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

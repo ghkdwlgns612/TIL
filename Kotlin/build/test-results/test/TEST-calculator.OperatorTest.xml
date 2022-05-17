@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="calculator.OperatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-05-17T07:10:49" hostname="HWANGJIHUNui-MacBookAir.local" time="0.029">
+  <properties/>
+  <testcase name="+연산자는 두 숫자를 합한다." classname="calculator.OperatorTest" time="0.001"/>
+  <testcase name="-연산자는 두 숫자를 뺀다." classname="calculator.OperatorTest" time="0.001"/>
+  <testcase name="*연산자는 두 숫자를 곱한다." classname="calculator.OperatorTest" time="0.001"/>
+  <testcase name="/연산자는 두 숫자를 나눈다." classname="calculator.OperatorTest" time="0.0"/>
+  <testcase name="+가 입력되면 PLUS객체를 반환한다." classname="calculator.OperatorTest" time="0.0"/>
+  <testcase name="4칙연산 외 다른 연사자가 입력되면 IllegalArgumentException가 발생한다" classname="calculator.OperatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
